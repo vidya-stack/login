@@ -1,0 +1,21 @@
+
+<!-- <mat-checkbox>Check me!</mat-checkbox> -->
+<!-- <mat-checkbox>sssss</mat-checkbox> -->
+<!-- <mat-slider min="1" max="100" step="1" value="1"></mat-slider> -->
+
+<mat-card style="background-color: #141414;">
+
+<button mat-button  routerLink='/home' *ngIf="showHome">HOME</button>
+
+
+
+<button mat-button  routerLink="/login" style="float: right;"  *ngIf="router.url == '/register'" >LOGIN</button>
+
+
+
+
+<button mat-button  routerLink="/register" style="float: right;" *ngIf="router.url != '/register';"  >REGISTER</button>
+
+
+</mat-card>
+<router-outlet></router-outlet>

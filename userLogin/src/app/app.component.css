@@ -1,0 +1,9 @@
+button{
+    color: aliceblue;
+}
+button:hover{
+    background-color: #282828;
+}
+mat-card{
+    min-height: 2vw;
+}

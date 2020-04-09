@@ -1,0 +1,30 @@
+mat-card{
+    margin: 0 auto;
+    max-width: 384px;
+    padding: 40px;
+   
+}
+.login-card{
+    margin: auto;
+    padding: 100px 0;
+}
+
+mat-card-title{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.example-full-width {
+    width: 100%;
+  }
+
+  button{
+    border: 1px solid #3f309a;
+    line-height: 44px;
+    background: #3f309a;
+    width: 100%;
+    color: #d9d9d9;
+  }
+  input{
+    line-height: 0px;
+  }
